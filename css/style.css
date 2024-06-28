@@ -1,0 +1,611 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    width: 98.8vw;
+    height: 100vh;
+    background-image: url('images/shape_45.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    font-family: Montserrat;
+}
+.head-content
+{
+    margin-bottom: 150px;
+    color: white;
+    text-align: left;
+}
+.head-content h2
+{
+    font-size: 15vmin;
+    font-family: Montserrat;
+    margin-left: 100px;
+    font-weight: 3 000;
+}
+.head-content p {
+    margin-left: 100px;
+    font-size: 4vmin;
+    font-family: Montserrat;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.head-content a{
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 100px;
+}
+.ctn
+{
+    padding: 10px 50px;
+    background: rgba(34,31,61,255);
+    border-radius: 30px;
+    color: white;
+}
+.navbar
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    padding: 15px;
+    background-color: rgba(34,31,61,255);
+    align-items: center;
+    font-family: Montserrat; 
+}
+a
+{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-links
+{
+    display: flex;
+    align-items:  center;
+}
+.nav-links li
+{
+    align-items:  center;
+}
+.nav-links a{
+    color: white;
+    margin: 15px 50px;
+    font-size: 3vmin;
+    font-weight: 300;
+
+}
+.logo{
+    height: 35px;
+    width: 170px;
+}
+.icon
+{
+    height: 30px;
+    width: 30px;
+}
+.menu{
+
+    background-color: rgba(34,31,61,255);
+}
+.title
+{
+    text-align: center;
+    font-size: 7vmin;
+    font-family: Montserrat;
+    color: white;
+    padding-top: 80px;
+}
+.menu .row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 50px;
+}
+.menu .row .col
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu .col h2
+{
+    font-size: 3vmin bolder;
+    font-family: Montserrat;
+    color: white;
+    margin-top: 20px;
+}
+.title p
+{
+    margin-top:20px;
+    font-size: 3vmin;
+    font-family: Montserrat;
+}
+.menu .col p
+{
+    font-size: medium;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.menu img
+{
+    width: 200px;
+    height: 200px;    
+}
+.menu .i1 
+{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    margin-top: 175px ;
+    margin-left: 80px;
+}
+.menu .i2 
+{
+    position: absolute;
+    transform: rotate(90deg);
+    height: 150px;
+    width: 40px;
+    margin-left: 260px;
+}
+.menu .i3 
+{
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    margin-top: 450px;
+}
+.menu .i4 
+{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    margin-left: 81.4%;
+}
+.menu .i5
+{
+    position: absolute;
+    height: 130px;
+    width: 36px;
+    margin-left: 1300px;
+    margin-top: 350px;
+}
+.menu .i6
+{
+    position: absolute;
+    height: 20px;
+    width: 80px;
+    margin-top: 580px ;
+    margin-left: 1270px;
+}
+/*order*/
+.order
+{
+    background-color: rgba(254,213,123,255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+.order .row
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.order .col h2
+{
+    font-size: 10vmin;
+    font-weight: 900;
+    font-family: Montserrat;
+    color: rgba(34,31,61,255);
+    margin-top: 200px;
+}
+.order .col p
+{
+    font-size: 4vmin ;
+    font-weight: 200;
+    color: rgba(34,31,61,255);
+    font-family: Montserrat;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.order a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 3vmin ;
+}
+.order .io1
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-bottom: 100px;
+}
+.order .overlap
+{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-bottom: 100px;
+}
+.order .io2
+{
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 40px;
+}
+.order .col .io3
+{
+    
+    position: absolute;
+    margin-top: 80px ;
+    margin-left: 0px;
+    overflow: hidden;
+}   
+.order .io4
+{
+    position: absolute;
+    margin-left: 550px; 
+    margin-top: 20px;   
+}
+.order .io5
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 1210px;
+}
+/*statistics*/
+.stat{
+
+    background-color: rgba(34,31,61,255);
+}
+.head
+{
+    text-align: center;
+    font-size: 7vmin;
+    font-family: Montserrat;
+    color: white;
+    padding-top: 80px;
+}
+.head p
+{
+    margin-top:20px;
+    font-size: 3vmin;
+    font-family: Montserrat;
+    padding-bottom: 80px;
+}
+.circles
+{
+    display: inline-block;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+    background: rgba(34,31,61,255);
+    border: 5px solid white;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Montserrat;
+    font-size: 4vmin;
+    font-weight: 800;
+    margin: 30px;
+    align-items: center;
+    position: relative;
+    left:15%;
+    justify-content: space-evenly;
+    margin-right: 80px;
+    margin-bottom: 200px;
+}
+.circles h1
+{
+    text-align: center;
+    font-size: 7vmin;
+    font-family: Montserrat;
+    color: white;
+}
+.stat .sdot
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.stat .scir
+{
+    margin-top: 100px;
+    margin-left: 1050px;
+    position: absolute;
+}
+.stat .szigs
+{
+    margin-top: 190px;
+    margin-left: 100px;
+    position: absolute;
+}
+.stat .sgdot
+{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 180px;
+}
+.stat .sciro
+{
+    margin-top: 200px;
+    position: absolute;
+    height: 200px;
+    width: 170px;
+    transform: rotate(90deg);
+}
+.stat .szig
+{
+    margin-top: 250px;
+    margin-left: 100px;
+    position: absolute;
+}
+/*order2*/
+.order2
+{
+    background-color: rgba(254,213,123,255);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8rem;
+}
+.order2 .row
+{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    
+}
+.order2 .col h2
+{
+    font-size: 10vmin;
+    font-weight: 900;
+    font-family: Montserrat;
+    color: rgba(34,31,61,255);
+    margin-top: 180px;
+    margin-left: 100px;
+
+}
+.order2 .col p
+{
+    font-size: 4vmin ;
+    font-weight: 200;
+    color: rgba(34,31,61,255);
+    font-family: Montserrat;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+}
+.order2 a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: Montserrat;
+    font-size: 3vmin ;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.order2 .ozig
+{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}   
+.order2 .odot
+{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.order2 .ocir
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 500px;
+}
+.order2 .odot2
+{
+    position: absolute;
+    margin-top: 500px;
+}
+.order2 .ociro
+{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 400px;
+    padding-bottom: 100px;
+}
+.order2 .overlap
+{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-bottom: 50px;
+}
+/*promo*/
+.promo
+{
+    background-image: url('images/shape_3.jpg');
+    background-size: cover;
+    height: 120vh;
+    background-repeat: no-repeat;
+    align-items: center;
+    font-family: Montserrat;
+}
+.celeb
+{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.promo p
+{
+    font-size: 5vmin;
+    font-family: Montserrat;
+    margin-top: 250px;
+    color: white;
+    text-align: center;    
+}
+
+.promo h2
+{
+    margin-top: 60px;
+    font-size: 5vmin;
+    font-family: Montserrat;
+    color: white;
+    text-align: center;    
+}
+/*subscribe*/
+.subscribe
+{
+    background-color: rgba(254,213,123,255);
+}
+.srh
+{
+    text-align: center;
+    font-size: 7vmin;
+    font-family: Montserrat;
+    color: rgba(34,31,61,255);
+}
+.srh p
+{
+    margin-top:20px;
+    font-size: 4vmin;
+    font-family: Montserrat;
+    padding-bottom: 80px;
+}
+.sub
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    border-radius: 50px;
+    overflow: hidden;
+    font-weight: 800;
+}
+.btn
+{
+    background-color: rgba(34,31,61,255);;
+    color: white;
+    border: none;
+    padding: 20px 20px;
+    font-size: 3vmin;
+    border-radius: 0 50px 50px 0;
+    font-weight: 800;
+    font-family: Montserrat;
+   
+}
+.email-in
+{
+    border: none;
+    padding: 20px 20px;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    font-size: 3vmin;
+    width: 500px;
+    font-weight: 800;
+    font-family: Montserrat;
+    
+}
+.subscribe .udot
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.subscribe .uzig
+{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 950px;
+}
+.subscribe .ucir
+{
+    margin-top: 20px;
+    margin-left: 1210px;
+}
+.subscribe .udots
+{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.subscribe .uzigs
+{
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.subscribe .ucirs
+{
+    margin-top: 80px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+/*footer*/
+.footer
+{
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 5rem;
+    background-color: rgba(17,17,17,255);
+    font-family: Montserrat;
+    color: white;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+.fbox
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer h2
+{
+    margin-top: 200px;
+    font-size: 5vmin;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.footer a
+{
+    font-size: 3vmin;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 15px;
+}
+.footer p
+{
+    font-size: 3vmin;
+    font-weight: 400;
+    line-height: 1.7;
+    
+}
+.social
+{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    margin-bottom: 200px;
+}
